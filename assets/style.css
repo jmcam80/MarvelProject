@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(12,14,11)
+    background-color:rgb(0,0,0)
 }
 
 .aLogo {
@@ -7,38 +7,53 @@ body {
     width:100%;
     z-index: -1;
     position: absolute;
- 
+    margin-left:-15%;  
     
-    /* float: left; */
 }
-.hulkL {
-    width:25%;
+
+.gIcon {
+    width:45%;
+    margin-left:13%;
+}
+.colL {
+    width:30%;
     position: relative;
     border-style: solid;
     border-color: white;
     border-width: 1px;
     z-index: 2;
     border-radius: 30%;
+    margin-left: -10%;
 }
 
-.hulkR {
-    width:25%;
+.colR {
+    width:30%;
     position: relative;
     border-style: solid;
     border-color: white;
     border-width: 1px;
     z-index: 2;
     border-radius: 30%;
+    margin-left:10%;
+}
+
+.goon {
+    width:40%;
 }
 
 
-
-.hulkL:hover {
+.colL:hover {
     /* transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     /* transform: rotate(30deg); */ 
     transform : rotate(30deg) scale(1.5);
 }
-.hulkR:hover {
+.colR:hover {
     transform: rotate(330deg) scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     
+}
+
+.goonies {
+    color:white;
+    text-align:center;
+    background-color:rgb(12,14,11);
 }
